@@ -5,7 +5,6 @@
 ![graphique_des_series_temporelles](https://github.com/user-attachments/assets/e627301a-a9f6-4f33-99e0-87e189cca9af)
 
 ```r
-# Exercice 4. Analyse exploratoire de données avec R
 
 # 1) On a sélectionné l'action Air Liquide de 01/01/2014 jusqu'à 01/12/2023
 library(quantmod)
