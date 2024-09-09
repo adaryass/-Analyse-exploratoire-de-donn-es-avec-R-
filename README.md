@@ -60,12 +60,12 @@ $$
 R_{\text{TCKR}, t} = \alpha + \beta R_{\text{CAC}, t} + \epsilon_t
 $$
 
-• La mesure du risque systématique se fait par le calcul d’un coefficient de corrélation, appelé bêta, qui est défini comme la volatilité du titre.
-• L’estimation du bêta peut se faire à l’aide du modèle du marché, sur la base de données passées.
+• La mesure du risque systématique se fait par le calcul d’un coefficient de corrélation, appelé bêta, qui est défini comme la volatilité du titre. <br>
+• L’estimation du bêta peut se faire à l’aide du modèle du marché, sur la base de données passées. <br>
 • Il exprime la sensibilité de la valeur du titre aux variations du marché :<br>
 
  $\beta_{\ TCKR} = \frac{\text{Cov}(R_{\text{TCKR}}, R_{\text{CAC}})}{\text{Var}(R_{\text{CAC}})}$ <br>
-
+Rappelons la formule de covariance :<br>
 $$
 \text{Cov}(R_{\text{TCKR}}, R_{\text{CAC}}) = \frac{1}{n-1} \sum_{t=1}^{n} \left( (R_{\text{TCKR}, t} - \overline{R_{\text{TCKR}}}) (R_{\text{CAC}, t} - \overline{R_{\text{CAC}}}) \right)
 $$
