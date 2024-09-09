@@ -73,6 +73,16 @@ $$
 \text{Cov}(R_{\text{TCKR}}, R_{\text{CAC}}) = \frac{1}{n-1} \sum_{t=1}^{n} \left( (R_{\text{TCKR}, t} - \overline{R_{\text{TCKR}}}) (R_{\text{CAC}, t} - \overline{R_{\text{CAC}}}) \right)
 $$
 
+#### Interprétation de bêta
+##### Coefficient bêta = 1
+• Avec un bêta de 1, l’action concernée évolue de la même manière que l’ensemble du marché.<br>
+##### Coefficient bêta < 1
+• Les actions dont le bêta est inférieur à 1 sont considérées comme moins volatiles par rapport à l’ensemble du marché. L’intégration d’une telle valeur dans un portefeuille réduit donc
+généralement son risque global.
+##### Coefficient bêta > 1
+• Un bêta supérieur à 1 signifie que le titre évolue avec des fluctuations plus importantes que le marché global.
+#### Coefficient bêta < 0
+• Les actions dont le bêta est égal ou inférieur à 0 n’ont pas de relation positive avec le marché dans son ensemble en termes de volatilité. Un bêta de 0 signifie que le titre n’est pas corrélé au marché global. Un bêta < 0 signifie qu’il existe une corrélation négative entre la volatilité du titre et celle du marché global.
 
 ```r
 
