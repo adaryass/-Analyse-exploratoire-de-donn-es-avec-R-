@@ -49,7 +49,9 @@ Déviations aux extrémités : Quelques déviations mineures aux extrémités su
 
 ![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731) <br>
 
-
+$$
+R_{\text{TCKR}, t} = \alpha + \beta R_{\text{CAC}, t} + \epsilon_t
+$$
 
 ```r
 
