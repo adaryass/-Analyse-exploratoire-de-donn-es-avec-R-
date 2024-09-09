@@ -64,7 +64,7 @@ $$
 • L’estimation du bêta peut se faire à l’aide du modèle du marché, sur la base de données passées.
 • Il exprime la sensibilité de la valeur du titre aux variations du marché :
 $$
-beta R_{\text{CAC}, t} = \Cov(R_{\t},R_{\text{CAC}})/ \ Var(R_{\text{CAC}})
+\beta R_{\text{CAC}, t} = \frac{\Cov(R_{\text{TCKR}}, R_{\text{CAC}})}{\Var(R_{\text{CAC}})}
 $$
 
 ```r
