@@ -50,10 +50,9 @@ Déviations aux extrémités : Quelques déviations mineures aux extrémités su
 ![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731) <br>
 ##### Risque spécifique et risque systématique
 
-• Le risque associé à un actif financier peut se décomposer en un risque systématique et un risque spécifique.
-• Le risque spécifique, propre au titre, est aussi appelé risque diversifiable (ou intrinsèque)
-• le risque systématique, risque dû aux variations du marché, est dit risque non diversifiable (ou
-risque de marché).
+• Le risque associé à un actif financier peut se décomposer en un risque systématique et un risque spécifique.<br>
+• Le risque spécifique, propre au titre, est aussi appelé risque diversifiable (ou intrinsèque). <br>
+• le risque systématique, risque dû aux variations du marché, est dit risque non diversifiable (ou risque de marché). <br>
 Risque d’une action = risque systématique + risque spécifique <br>
 
 $$
