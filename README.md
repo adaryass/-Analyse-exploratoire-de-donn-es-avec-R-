@@ -48,10 +48,23 @@ Alignement : La plupart des points sont alignés avec la droite de référence, 
 Déviations aux extrémités : Quelques déviations mineures aux extrémités suggèrent que les rendements extrêmes sont légèrement plus prononcés que dans une distribution normale, ce qui corrobore les résultats de la skewness et de la kurtosis.
 
 ![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731) <br>
+##### Risque spécifique et risque systématique
+
+• Le risque associé à un actif financier peut se décomposer en un risque systématique et un risque spécifique.
+• Le risque spécifique, propre au titre, est aussi appelé risque diversifiable (ou intrinsèque)
+• le risque systématique, risque dû aux variations du marché, est dit risque non diversifiable (ou
+risque de marché).
+Risque d’une action = risque systématique + risque spécifique <br>
 
 $$
 R_{\text{TCKR}, t} = \alpha + \beta R_{\text{CAC}, t} + \epsilon_t
 $$
+
+• La mesure du risque systématique se fait par le calcul d’un coefficient de corrélation, appelé bêta, qui est défini comme la volatilité du titre.
+• L’estimation du bêta peut se faire à l’aide du modèle du marché, sur la base de données passées.
+• Il exprime la sensibilité de la valeur du titre aux variations du marché :
+$$
+beta R_{\text{CAC}, t} = \Cov(R_{\t},R_{\text{CAC}})/ \ Var(R_{\text{CAC}})
 
 ```r
 
