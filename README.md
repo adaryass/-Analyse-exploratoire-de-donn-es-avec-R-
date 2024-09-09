@@ -65,8 +65,7 @@ $$
 • Il exprime la sensibilité de la valeur du titre aux variations du marché :<br>
 
  $\beta_{\ TCKR} = \frac{\text{Cov}(R_{\text{TCKR}}, R_{\text{CAC}})}{\text{Var}(R_{\text{CAC}})}$.
-
-et
+<br>
 $$
 \text{Cov}(R_{\text{TCKR}}, R_{\text{CAC}}) = \frac{1}{n-1} \sum_{t=1}^{n} \left( (R_{\text{TCKR}, t} - \overline{R_{\text{TCKR}}}) (R_{\text{CAC}, t} - \overline{R_{\text{CAC}}}) \right)
 $$
