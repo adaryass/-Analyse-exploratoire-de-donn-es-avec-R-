@@ -67,7 +67,8 @@ $$
 $$
 \beta R_{\text{CAC}, t} = \frac{\Cov(R_{\text{TCKR}}, R_{\text{CAC}})}{\Var(R_{\text{CAC}})}
 $$
-
+<br>
+ $\beta R_{\text{CAC}, t} = \frac{\text{Cov}(R_{\text{TCKR}}, R_{\text{CAC}})}{\text{Var}(R_{\text{CAC}})}$.
 
 
 
