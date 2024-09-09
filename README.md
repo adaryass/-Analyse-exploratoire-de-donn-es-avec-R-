@@ -1,4 +1,4 @@
-# Analyse Financière des Rentabilités Mensuelles d'Air Liquide (2014-2023)
+# Analyse Financière des Rentabilités Mensuelles d'Air Liquide (2014-2023)<br>
 ## Contexte du Projet
 Dans le cadre d’un projet universitaire visant à analyser les caractéristiques financières d’une action cotée en bourse parisienne depuis 2013, nous avons choisi d’étudier l’action Air Liquide. La période d’analyse s’étend du 1er janvier 2014 au 1er décembre 2023, soit une durée de 10 ans. Les données ont été collectées sur le site Yahoo Finance, en utilisant les prix de clôture des actions.
 ## Méthodologie
@@ -19,35 +19,35 @@ Les rentabilités mensuelles simples ont été calculées à partir des prix de 
 . Kurtosis (Aplatissement) : -0,0294. Une kurtosis légèrement négative indique une distribution légèrement plus plate que la normale (platykurtique), avec des queues fines. Cela signifie que les rendements extrêmes, bien que présents, ne sont pas aussi fréquents qu’attendu dans une distribution normale. Cela rassure quant à la stabilité des rendements, mais n'exclut pas le risque d’événements extrêmes.
 
 ## Interprétation des Graphiques
-#### Graphique des Séries Temporelles:
-![graphique_des_series_temporelles](https://github.com/user-attachments/assets/e627301a-a9f6-4f33-99e0-87e189cca9af)
-Ce graphique montre la volatilité des rentabilités mensuelles d'Air Liquide de 2014 à 2023. 
+#### Graphique des Séries Temporelles:<br>
+![graphique_des_series_temporelles](https://github.com/user-attachments/assets/e627301a-a9f6-4f33-99e0-87e189cca9af) <br>
+Ce graphique montre la volatilité des rentabilités mensuelles d'Air Liquide de 2014 à 2023.<br> 
 
 Volatilité : Les rendements mensuels présentent une volatilité notable, oscillant entre +10 % et -10 %.
 Périodes de forte rentabilité : Des pics de rentabilité, souvent supérieurs à 5 %, apparaissent notamment en 2017, 2019 et 2021.
 Périodes de pertes : Des baisses importantes (jusqu’à -10 %) sont visibles, particulièrement en 2018, 2020 et 2022, potentiellement liées à des événements macroéconomiques (comme la crise de la COVID-19).
 
 
-#### Histogramme des Rentabilités Mensuelles:
-![histogramme](https://github.com/user-attachments/assets/5e61ce18-f8f9-4cc8-bfb5-eb78770b758c)
-Cet histogramme montre la distribution des rentabilités mensuelles sur la période étudiée.
+#### Histogramme des Rentabilités Mensuelles:<br>
+![histogramme](https://github.com/user-attachments/assets/5e61ce18-f8f9-4cc8-bfb5-eb78770b758c) <br>
+Cet histogramme montre la distribution des rentabilités mensuelles sur la période étudiée.<br>
 
 Distribution : La majorité des rendements sont positifs, concentrés entre 0 % et 5 %.
 Extrêmes : Quelques rendements extrêmes sont observés (jusqu'à -15 % et +15 %), mais ils sont rares.
 Skewness et Kurtosis : L'histogramme confirme la skewness légèrement négative et la kurtosis faible. Les pertes semblent être un peu plus extrêmes que les gains.    
 
-![densité](https://github.com/user-attachments/assets/75830856-d3dd-409f-b1fe-b121f0aaeb30)
+![densité](https://github.com/user-attachments/assets/75830856-d3dd-409f-b1fe-b121f0aaeb30) <br>
 
 
 
-### Q-Q Plot
-![Quantile](https://github.com/user-attachments/assets/2d407bc6-dbc4-4339-b62a-402355adf487)
-Le Normal Q-Q Plot compare les rendements mensuels d’Air Liquide à une distribution normale.
+### Q-Q Plot<br>
+![Quantile](https://github.com/user-attachments/assets/2d407bc6-dbc4-4339-b62a-402355adf487) <br>
+Le Normal Q-Q Plot compare les rendements mensuels d’Air Liquide à une distribution normale. <br>
 
 Alignement : La plupart des points sont alignés avec la droite de référence, suggérant une distribution des rendements proche de la normale.
 Déviations aux extrémités : Quelques déviations mineures aux extrémités suggèrent que les rendements extrêmes sont légèrement plus prononcés que dans une distribution normale, ce qui corrobore les résultats de la skewness et de la kurtosis.
 
-![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731)
+![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731) <br>
 
 
 
