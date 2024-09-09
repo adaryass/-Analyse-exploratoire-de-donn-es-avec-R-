@@ -28,7 +28,7 @@ Périodes de forte rentabilité : Des pics de rentabilité, souvent supérieurs 
 Périodes de pertes : Des baisses importantes (jusqu’à -10 %) sont visibles, particulièrement en 2018, 2020 et 2022, potentiellement liées à des événements macroéconomiques (comme la crise de la COVID-19).
 
 
-Histogramme des Rentabilités Mensuelles:
+#### Histogramme des Rentabilités Mensuelles:
 ![histogramme](https://github.com/user-attachments/assets/5e61ce18-f8f9-4cc8-bfb5-eb78770b758c)
 Cet histogramme montre la distribution des rentabilités mensuelles sur la période étudiée.
 
@@ -40,7 +40,7 @@ Skewness et Kurtosis : L'histogramme confirme la skewness légèrement négative
 
 
 
-Q-Q Plot
+### Q-Q Plot
 ![Quantile](https://github.com/user-attachments/assets/2d407bc6-dbc4-4339-b62a-402355adf487)
 Le Normal Q-Q Plot compare les rendements mensuels d’Air Liquide à une distribution normale.
 
