@@ -65,6 +65,7 @@ $$
 • Il exprime la sensibilité de la valeur du titre aux variations du marché :
 $$
 beta R_{\text{CAC}, t} = \Cov(R_{\t},R_{\text{CAC}})/ \ Var(R_{\text{CAC}})
+$$
 
 ```r
 
