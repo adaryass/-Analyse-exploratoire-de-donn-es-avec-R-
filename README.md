@@ -1,8 +1,55 @@
-![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731)
-![Quantile](https://github.com/user-attachments/assets/2d407bc6-dbc4-4339-b62a-402355adf487)
-![densité](https://github.com/user-attachments/assets/75830856-d3dd-409f-b1fe-b121f0aaeb30)
-![histogramme](https://github.com/user-attachments/assets/5e61ce18-f8f9-4cc8-bfb5-eb78770b758c)
+# Analyse Financière des Rentabilités Mensuelles d'Air Liquide (2014-2023)
+## Contexte du Projet
+Dans le cadre d’un projet universitaire visant à analyser les caractéristiques financières d’une action cotée en bourse parisienne depuis 2013, nous avons choisi d’étudier l’action Air Liquide. La période d’analyse s’étend du 1er janvier 2014 au 1er décembre 2023, soit une durée de 10 ans. Les données ont été collectées sur le site Yahoo Finance, en utilisant les prix de clôture des actions.
+## Méthodologie
+Les rentabilités mensuelles simples ont été calculées à partir des prix de clôture ajustés, suivies du calcul des statistiques descriptives : moyenne, écart-type, minimum, maximum, skewness et kurtosis. Ces mesures statistiques permettent d’appréhender la performance globale du titre ainsi que sa volatilité.
+## Statistiques descriptives
+-Rentabilité mensuelle moyenne : 1,005 %. Ce chiffre indique une performance positive et stable sur l’ensemble de la période.
+-Médiane : 1,32 %. La médiane, supérieure à la moyenne, indique que plus de la moitié des rendements mensuels étaient supérieurs à la moyenne, ce qui suggère la présence de quelques mois de rendements négatifs ou plus faibles qui ont tiré la moyenne vers le bas.
+
+- Statistiques des Quartiles :
+. 1er quartile (1st Qu.) : -2,379 %. Un quart des rendements étaient inférieurs à cette valeur, indiquant des périodes de sous-performance.
+. 3e quartile (3rd Qu.) : 4,254 %. Un quart des rendements étaient supérieurs à ce niveau, montrant des périodes de surperformance notable.
+. Rentabilité minimale : -13,454 %. Cela correspond à une chute significative de l’action sur un mois, probablement en raison d’un événement économique majeur.
+. Rentabilité maximale : 12,538 %. Cela reflète une forte hausse de l’action sur un mois, peut-être liée à des facteurs spécifiques à l’entreprise.
+
+- Skewness et Kurtosis
+. Skewness (Asymétrie) : -0,0925. Cette skewness légèrement négative indique une légère asymétrie de la distribution des rendements vers la gauche, signifiant une tendance à avoir des rendements mensuels négatifs extrêmes. Toutefois, la faible valeur de skewness suggère que ces rendements extrêmes ne sont pas fréquents.
+
+. Kurtosis (Aplatissement) : -0,0294. Une kurtosis légèrement négative indique une distribution légèrement plus plate que la normale (platykurtique), avec des queues fines. Cela signifie que les rendements extrêmes, bien que présents, ne sont pas aussi fréquents qu’attendu dans une distribution normale. Cela rassure quant à la stabilité des rendements, mais n'exclut pas le risque d’événements extrêmes.
+
+## Interprétation des Graphiques
+Graphique des Séries Temporelles:
 ![graphique_des_series_temporelles](https://github.com/user-attachments/assets/e627301a-a9f6-4f33-99e0-87e189cca9af)
+Ce graphique montre la volatilité des rentabilités mensuelles d'Air Liquide de 2014 à 2023.
+
+Volatilité : Les rendements mensuels présentent une volatilité notable, oscillant entre +10 % et -10 %.
+Périodes de forte rentabilité : Des pics de rentabilité, souvent supérieurs à 5 %, apparaissent notamment en 2017, 2019 et 2021.
+Périodes de pertes : Des baisses importantes (jusqu’à -10 %) sont visibles, particulièrement en 2018, 2020 et 2022, potentiellement liées à des événements macroéconomiques (comme la crise de la COVID-19).
+
+
+Histogramme des Rentabilités Mensuelles:
+![histogramme](https://github.com/user-attachments/assets/5e61ce18-f8f9-4cc8-bfb5-eb78770b758c)
+Cet histogramme montre la distribution des rentabilités mensuelles sur la période étudiée.
+
+Distribution : La majorité des rendements sont positifs, concentrés entre 0 % et 5 %.
+Extrêmes : Quelques rendements extrêmes sont observés (jusqu'à -15 % et +15 %), mais ils sont rares.
+Skewness et Kurtosis : L'histogramme confirme la skewness légèrement négative et la kurtosis faible. Les pertes semblent être un peu plus extrêmes que les gains.    
+
+![densité](https://github.com/user-attachments/assets/75830856-d3dd-409f-b1fe-b121f0aaeb30)
+
+
+
+Q-Q Plot
+![Quantile](https://github.com/user-attachments/assets/2d407bc6-dbc4-4339-b62a-402355adf487)
+Le Normal Q-Q Plot compare les rendements mensuels d’Air Liquide à une distribution normale.
+
+Alignement : La plupart des points sont alignés avec la droite de référence, suggérant une distribution des rendements proche de la normale.
+Déviations aux extrémités : Quelques déviations mineures aux extrémités suggèrent que les rendements extrêmes sont légèrement plus prononcés que dans une distribution normale, ce qui corrobore les résultats de la skewness et de la kurtosis.
+
+![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731)
+
+
 
 ```r
 
