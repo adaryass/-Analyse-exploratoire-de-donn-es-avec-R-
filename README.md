@@ -45,10 +45,11 @@ Skewness et Kurtosis : L'histogramme confirme la skewness légèrement négative
 Le Normal Q-Q Plot compare les rendements mensuels d’Air Liquide à une distribution normale. <br>
 
 Alignement : La plupart des points sont alignés avec la droite de référence, suggérant une distribution des rendements proche de la normale.
-Déviations aux extrémités : Quelques déviations mineures aux extrémités suggèrent que les rendements extrêmes sont légèrement plus prononcés que dans une distribution normale, ce qui corrobore les résultats de la skewness et de la kurtosis.
+Déviations aux extrémités : Quelques déviations mineures aux extrémités suggèrent que les rendements extrêmes sont légèrement plus prononcés que dans une distribution normale, ce qui corrobore les résultats de la skewness et de la kurtosis.<br>
 
+### Nuage de points des deux séries de rentabilités avec celles de l’indice CAC 40  
 ![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731) <br>
-##### Risque spécifique et risque systématique
+#### Risque spécifique et risque systématique
 
 • Le risque associé à un actif financier peut se décomposer en un risque systématique et un risque spécifique.<br>
 • Le risque spécifique, propre au titre, est aussi appelé risque diversifiable (ou intrinsèque). <br>
