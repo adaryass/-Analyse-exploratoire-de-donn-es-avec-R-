@@ -81,8 +81,10 @@ $$
 généralement son risque global.
 ##### Coefficient bêta > 1
 • Un bêta supérieur à 1 signifie que le titre évolue avec des fluctuations plus importantes que le marché global.
-#### Coefficient bêta < 0
-• Les actions dont le bêta est égal ou inférieur à 0 n’ont pas de relation positive avec le marché dans son ensemble en termes de volatilité. Un bêta de 0 signifie que le titre n’est pas corrélé au marché global. Un bêta < 0 signifie qu’il existe une corrélation négative entre la volatilité du titre et celle du marché global.
+##### Coefficient bêta < 0
+• Les actions dont le bêta est égal ou inférieur à 0 n’ont pas de relation positive avec le marché dans son ensemble en termes de volatilité. Un bêta de 0 signifie que le titre n’est pas corrélé au marché global. Un bêta < 0 signifie qu’il existe une corrélation négative entre la volatilité du titre et celle du marché global.<br>
+
+On a obtenue:  $\beta_{\ Air Liquide} =  0.7577207  $ 
 
 ```r
 
