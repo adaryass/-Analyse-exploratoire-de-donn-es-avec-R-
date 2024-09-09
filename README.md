@@ -48,6 +48,7 @@ Alignement : La plupart des points sont alignés avec la droite de référence, 
 Déviations aux extrémités : Quelques déviations mineures aux extrémités suggèrent que les rendements extrêmes sont légèrement plus prononcés que dans une distribution normale, ce qui corrobore les résultats de la skewness et de la kurtosis.<br>
 
 ### Nuage de points des deux séries de rentabilités avec celles de l’indice CAC 40  
+
 ![nuage_de_point](https://github.com/user-attachments/assets/ea004d46-c1f4-43ea-a6cd-9dcc673da731) <br>
 #### Risque spécifique et risque systématique
 
